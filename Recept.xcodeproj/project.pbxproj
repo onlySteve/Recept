@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		61F8CDE11E6DFD0D0003A598 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F8CDE01E6DFD0D0003A598 /* AppDelegate.swift */; };
+		61F8CDE31E6DFD0D0003A598 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F8CDE21E6DFD0D0003A598 /* ViewController.swift */; };
+		61F8CDE61E6DFD0D0003A598 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61F8CDE41E6DFD0D0003A598 /* Main.storyboard */; };
+		61F8CDE81E6DFD0D0003A598 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61F8CDE71E6DFD0D0003A598 /* Assets.xcassets */; };
+		61F8CDEB1E6DFD0D0003A598 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61F8CDE91E6DFD0D0003A598 /* LaunchScreen.storyboard */; };
+		61F8CDF61E6DFD0D0003A598 /* ReceptTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F8CDF51E6DFD0D0003A598 /* ReceptTests.swift */; };
+		61F8CE011E6DFD0D0003A598 /* ReceptUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F8CE001E6DFD0D0003A598 /* ReceptUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		61F8CDF21E6DFD0D0003A598 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61F8CDD51E6DFD0C0003A598 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61F8CDDC1E6DFD0D0003A598;
+			remoteInfo = Recept;
+		};
+		61F8CDFD1E6DFD0D0003A598 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61F8CDD51E6DFD0C0003A598 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61F8CDDC1E6DFD0D0003A598;
+			remoteInfo = Recept;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		61F8CDDD1E6DFD0D0003A598 /* Recept.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Recept.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		61F8CDE01E6DFD0D0003A598 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		61F8CDE21E6DFD0D0003A598 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		61F8CDE51E6DFD0D0003A598 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		61F8CDE71E6DFD0D0003A598 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		61F8CDEA1E6DFD0D0003A598 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		61F8CDEC1E6DFD0D0003A598 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61F8CDF11E6DFD0D0003A598 /* ReceptTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReceptTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61F8CDF51E6DFD0D0003A598 /* ReceptTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceptTests.swift; sourceTree = "<group>"; };
+		61F8CDF71E6DFD0D0003A598 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61F8CDFC1E6DFD0D0003A598 /* ReceptUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReceptUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61F8CE001E6DFD0D0003A598 /* ReceptUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceptUITests.swift; sourceTree = "<group>"; };
+		61F8CE021E6DFD0D0003A598 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61F8CDDA1E6DFD0D0003A598 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61F8CDEE1E6DFD0D0003A598 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61F8CDF91E6DFD0D0003A598 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61F8CDD41E6DFD0C0003A598 = {
+			isa = PBXGroup;
+			children = (
+				61F8CDDF1E6DFD0D0003A598 /* Recept */,
+				61F8CDF41E6DFD0D0003A598 /* ReceptTests */,
+				61F8CDFF1E6DFD0D0003A598 /* ReceptUITests */,
+				61F8CDDE1E6DFD0D0003A598 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		61F8CDDE1E6DFD0D0003A598 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61F8CDDD1E6DFD0D0003A598 /* Recept.app */,
+				61F8CDF11E6DFD0D0003A598 /* ReceptTests.xctest */,
+				61F8CDFC1E6DFD0D0003A598 /* ReceptUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61F8CDDF1E6DFD0D0003A598 /* Recept */ = {
+			isa = PBXGroup;
+			children = (
+				61F8CDE01E6DFD0D0003A598 /* AppDelegate.swift */,
+				61F8CDE21E6DFD0D0003A598 /* ViewController.swift */,
+				61F8CDE41E6DFD0D0003A598 /* Main.storyboard */,
+				61F8CDE71E6DFD0D0003A598 /* Assets.xcassets */,
+				61F8CDE91E6DFD0D0003A598 /* LaunchScreen.storyboard */,
+				61F8CDEC1E6DFD0D0003A598 /* Info.plist */,
+			);
+			path = Recept;
+			sourceTree = "<group>";
+		};
+		61F8CDF41E6DFD0D0003A598 /* ReceptTests */ = {
+			isa = PBXGroup;
+			children = (
+				61F8CDF51E6DFD0D0003A598 /* ReceptTests.swift */,
+				61F8CDF71E6DFD0D0003A598 /* Info.plist */,
+			);
+			path = ReceptTests;
+			sourceTree = "<group>";
+		};
+		61F8CDFF1E6DFD0D0003A598 /* ReceptUITests */ = {
+			isa = PBXGroup;
+			children = (
+				61F8CE001E6DFD0D0003A598 /* ReceptUITests.swift */,
+				61F8CE021E6DFD0D0003A598 /* Info.plist */,
+			);
+			path = ReceptUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61F8CDDC1E6DFD0D0003A598 /* Recept */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61F8CE051E6DFD0D0003A598 /* Build configuration list for PBXNativeTarget "Recept" */;
+			buildPhases = (
+				61F8CDD91E6DFD0D0003A598 /* Sources */,
+				61F8CDDA1E6DFD0D0003A598 /* Frameworks */,
+				61F8CDDB1E6DFD0D0003A598 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Recept;
+			productName = Recept;
+			productReference = 61F8CDDD1E6DFD0D0003A598 /* Recept.app */;
+			productType = "com.apple.product-type.application";
+		};
+		61F8CDF01E6DFD0D0003A598 /* ReceptTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61F8CE081E6DFD0D0003A598 /* Build configuration list for PBXNativeTarget "ReceptTests" */;
+			buildPhases = (
+				61F8CDED1E6DFD0D0003A598 /* Sources */,
+				61F8CDEE1E6DFD0D0003A598 /* Frameworks */,
+				61F8CDEF1E6DFD0D0003A598 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61F8CDF31E6DFD0D0003A598 /* PBXTargetDependency */,
+			);
+			name = ReceptTests;
+			productName = ReceptTests;
+			productReference = 61F8CDF11E6DFD0D0003A598 /* ReceptTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		61F8CDFB1E6DFD0D0003A598 /* ReceptUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61F8CE0B1E6DFD0D0003A598 /* Build configuration list for PBXNativeTarget "ReceptUITests" */;
+			buildPhases = (
+				61F8CDF81E6DFD0D0003A598 /* Sources */,
+				61F8CDF91E6DFD0D0003A598 /* Frameworks */,
+				61F8CDFA1E6DFD0D0003A598 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61F8CDFE1E6DFD0D0003A598 /* PBXTargetDependency */,
+			);
+			name = ReceptUITests;
+			productName = ReceptUITests;
+			productReference = 61F8CDFC1E6DFD0D0003A598 /* ReceptUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61F8CDD51E6DFD0C0003A598 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = olbu;
+				TargetAttributes = {
+					61F8CDDC1E6DFD0D0003A598 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					61F8CDF01E6DFD0D0003A598 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 61F8CDDC1E6DFD0D0003A598;
+					};
+					61F8CDFB1E6DFD0D0003A598 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 61F8CDDC1E6DFD0D0003A598;
+					};
+				};
+			};
+			buildConfigurationList = 61F8CDD81E6DFD0C0003A598 /* Build configuration list for PBXProject "Recept" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 61F8CDD41E6DFD0C0003A598;
+			productRefGroup = 61F8CDDE1E6DFD0D0003A598 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61F8CDDC1E6DFD0D0003A598 /* Recept */,
+				61F8CDF01E6DFD0D0003A598 /* ReceptTests */,
+				61F8CDFB1E6DFD0D0003A598 /* ReceptUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61F8CDDB1E6DFD0D0003A598 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61F8CDEB1E6DFD0D0003A598 /* LaunchScreen.storyboard in Resources */,
+				61F8CDE81E6DFD0D0003A598 /* Assets.xcassets in Resources */,
+				61F8CDE61E6DFD0D0003A598 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61F8CDEF1E6DFD0D0003A598 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61F8CDFA1E6DFD0D0003A598 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61F8CDD91E6DFD0D0003A598 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61F8CDE31E6DFD0D0003A598 /* ViewController.swift in Sources */,
+				61F8CDE11E6DFD0D0003A598 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61F8CDED1E6DFD0D0003A598 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61F8CDF61E6DFD0D0003A598 /* ReceptTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61F8CDF81E6DFD0D0003A598 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61F8CE011E6DFD0D0003A598 /* ReceptUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		61F8CDF31E6DFD0D0003A598 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61F8CDDC1E6DFD0D0003A598 /* Recept */;
+			targetProxy = 61F8CDF21E6DFD0D0003A598 /* PBXContainerItemProxy */;
+		};
+		61F8CDFE1E6DFD0D0003A598 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61F8CDDC1E6DFD0D0003A598 /* Recept */;
+			targetProxy = 61F8CDFD1E6DFD0D0003A598 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		61F8CDE41E6DFD0D0003A598 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61F8CDE51E6DFD0D0003A598 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		61F8CDE91E6DFD0D0003A598 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61F8CDEA1E6DFD0D0003A598 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		61F8CE031E6DFD0D0003A598 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		61F8CE041E6DFD0D0003A598 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		61F8CE061E6DFD0D0003A598 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Recept/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dom.Recept;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		61F8CE071E6DFD0D0003A598 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Recept/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dom.Recept;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		61F8CE091E6DFD0D0003A598 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ReceptTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dom.ReceptTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Recept.app/Recept";
+			};
+			name = Debug;
+		};
+		61F8CE0A1E6DFD0D0003A598 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ReceptTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dom.ReceptTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Recept.app/Recept";
+			};
+			name = Release;
+		};
+		61F8CE0C1E6DFD0D0003A598 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ReceptUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dom.ReceptUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Recept;
+			};
+			name = Debug;
+		};
+		61F8CE0D1E6DFD0D0003A598 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ReceptUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dom.ReceptUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Recept;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61F8CDD81E6DFD0C0003A598 /* Build configuration list for PBXProject "Recept" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61F8CE031E6DFD0D0003A598 /* Debug */,
+				61F8CE041E6DFD0D0003A598 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61F8CE051E6DFD0D0003A598 /* Build configuration list for PBXNativeTarget "Recept" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61F8CE061E6DFD0D0003A598 /* Debug */,
+				61F8CE071E6DFD0D0003A598 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		61F8CE081E6DFD0D0003A598 /* Build configuration list for PBXNativeTarget "ReceptTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61F8CE091E6DFD0D0003A598 /* Debug */,
+				61F8CE0A1E6DFD0D0003A598 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		61F8CE0B1E6DFD0D0003A598 /* Build configuration list for PBXNativeTarget "ReceptUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61F8CE0C1E6DFD0D0003A598 /* Debug */,
+				61F8CE0D1E6DFD0D0003A598 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 61F8CDD51E6DFD0C0003A598 /* Project object */;
+}
