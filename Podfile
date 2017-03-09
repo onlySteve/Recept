@@ -6,7 +6,8 @@ target 'Recept' do
   use_frameworks!
   pod 'RxSwift',    '~> 3.0'
   pod 'RxCocoa',    '~> 3.0'
-
+  pod 'RxDataSources', '~> 1.0'
+  
   target 'ReceptTests' do
     inherit! :search_paths
     # Pods for testing

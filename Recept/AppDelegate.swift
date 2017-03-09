@@ -12,10 +12,15 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    var rootController: UINavigationController {
+        return self.window!.rootViewController as! UINavigationController
+    }
 
-
+    private lazy var applicationCoordinator: Coordinator = self.makeCoordinator()()
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        applicationCoordinator.start()
         return true
     }
 
@@ -40,7 +45,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
-
-
+    
+    //MARK: - Help Methods
+    private func makeCoordinator() -> (() -> Coordinator) {
+        return {
+            return ApplicationCoordinator(
+                router: RouterImp(rootController: self.rootController),
+                coordinatorFactory: CoordinatorFactoryImp()
+            )
+        }
+    }
 }
 
